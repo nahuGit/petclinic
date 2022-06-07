@@ -7,7 +7,7 @@ pipeline {
                         sh 'cp -R helm/* .'
 		        sh 'ls -ltr'
                         sh 'pwd'
-                        sh '/usr/local/bin/helm upgrade --install petclinic-app petclinic  --set image.repository=nahuacr.azurecr.io/nahuacr/petclinic --set image.tag=1'
+                        sh '/usr/local/bin/helm upgrade --install petclinic-app petclinic  --set image.repository=nahuacr.azurecr.io/nahuacr --set image.tag=1'
               			
             }           
         }
