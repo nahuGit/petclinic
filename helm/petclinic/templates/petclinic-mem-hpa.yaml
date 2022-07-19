@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  apiVersion: autoscaling/v2beta1
+=======
+apiVersion: autoscaling/v2beta1
+>>>>>>> azure
 kind: HorizontalPodAutoscaler
 metadata:
   name: petclinic-mem-hpa
